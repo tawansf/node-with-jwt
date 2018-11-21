@@ -1,0 +1,41 @@
+{
+  "name": "jwt-authentication",
+  "version": "1.0.0",
+  "description": "Repository destined for studies",
+  "main": "app.js",
+  "bin": {
+    "jwt-authentication": "server.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TawanSF/node-with-jwt.git"
+  },
+  "keywords": [
+    "jwt",
+    "authentication",
+    "jwt-with-node",
+    "etc."
+  ],
+  "author": "Tawan da Silva Ferreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TawanSF/node-with-jwt/issues"
+  },
+  "homepage": "https://github.com/TawanSF/node-with-jwt#readme",
+  "dependencies": {
+    "debug": "^4.1.0",
+    "express": "^4.16.4",
+    "helmet": "^3.15.0",
+    "http-errors": "^1.7.1",
+    "jsonwebtoken": "^8.4.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.6",
+    "pg": "^7.6.1"
+  }
+}
